@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(image/triangles_pattern.webp);
+    background-repeat: repeat;
+}
+
+.nav-link{
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: rgb(0, 255, 21) !important;
+}
+
