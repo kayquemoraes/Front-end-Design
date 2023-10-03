@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .left {
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+.container .left .list {
+  font-size: 45px;
+}
+.container .left .list .itens {
+  list-style: none;
+}
+.container .right {
+  width: 50%;
+  background-color: black;
+}
+.container .right .texto {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+  text-align: justify;
+}/*# sourceMappingURL=style.css.map */

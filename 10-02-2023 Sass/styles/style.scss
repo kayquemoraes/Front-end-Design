@@ -1,0 +1,38 @@
+ $cor-principal: white;
+ $cor-secundaria: black;
+ 
+
+ @mixin globalspace(){
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    @include globalspace();
+ }
+
+ .container {
+    height: 100vh;
+    display: flex;
+    .left {
+        width: 50%;
+        background-color: $cor-principal;
+        color: $cor-secundaria;
+        .list{
+            font-size: 45px;
+            .itens{
+                list-style: none;
+            }
+        }
+    }
+    .right {
+        width: 50%;
+        background-color: $cor-secundaria;
+        .texto {
+            font-family: Arial, Helvetica, sans-serif;
+            color: $cor-principal;
+            font-size: 1em;
+            padding: 10px;
+            text-align: justify;
+        }
+    }
+ }
