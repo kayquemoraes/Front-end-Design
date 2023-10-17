@@ -1,0 +1,12 @@
+@import '../base/variaveis';
+
+footer {
+    text-align: center;
+    font-size: $tamanho-da-fonte / 2;
+    color: $cor-1;
+    font-weight: 300;
+    margin-top: 1em;
+    padding: 1.2em;
+    border-top: 2px solid $cor-1;
+
+}
